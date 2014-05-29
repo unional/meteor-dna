@@ -2,7 +2,7 @@
 	"name": "dna",
 	"description": "Datum Network Architecture for Meteor",
 	"homepage": "https://github.com/unional/meteor-dna",
-	"author": "Homa Wong",
+	"author": "Unional",
 	"version": "0.0.1",
 	"git": "https://github.com/unional/meteor-dna.git",
 	"packages": {}
