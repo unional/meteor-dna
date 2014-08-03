@@ -1,0 +1,30 @@
+<head>
+    <title>demo</title>
+</head>
+
+<body>
+{{> editPanel}}
+{{> main}}
+</body>
+
+<template name="editPanel">
+    <div>
+        <button id="prePopulate" type="button">Pre-populate</button>
+        <textarea placeholder="Datum in json">{{editValue}}</textarea>
+        <button id="save" type="button">Save</button>
+    </div>
+</template>
+
+<template name="main">
+    <div class="input-group">
+        <input id="searchValue" class="form-control" type="text" placeholder="search" value="{{searchValue}}">
+        <span class="input-group-btn">
+            <button id="searchButton" type="button" class="btn btn-default"><span class="fa fa-search"></span></button>
+        </span>
+    </div>
+    {{#each searchResults}}
+    <section>
+        {{names}}
+    </section>
+    {{/each}}
+</template>

@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "dna": {
+      "path": "../dna"
+    },
+    "bootstrap3-less": {},
+    "font-awesome": {}
+  }
+}
